@@ -43,7 +43,7 @@ dG0      vH     ve    label
 -4.929   2      2     OH
 ...
 ```
-where dG0 is the $\Delta G(0,0)$ free energy, vH and ve are the number of protons ($v_{\mathrm{H}^+}$) and electrons, ($v_{e^-}$) involved in the process, and label dictates the name of the phase/termination.
+where dG0 is the $\Delta G(0,0)$ free energy (adding also the termination term, $-v_{\mathrm{T}}eU_{\mathrm{T}}$), vH and ve are the number of protons ($v_{\mathrm{H}^+}$) and electrons, ($v_{e^-}$) involved in the process, and label dictates the name of the phase/termination.
 
 Then, its a matter of using the functions in the `pourbaix_plot.py` file to generate the plots:
 ```python
