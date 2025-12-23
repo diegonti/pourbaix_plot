@@ -356,7 +356,7 @@ def plot_dG_vs_pH(file, U=0, ax=None, output=None,  N=1000, title=None,
     **kwargs : dict
         Additional plotting arguments:
         - xlim (tuple): Range of pH values (default: (0, 15)).
-        - ylim (tuple): Range of ΔG (default: (-10, 2)).
+        - ylim (tuple): Range of ΔG (default: (-15, 5)).
         - xlabel (str): Label for x-axis (default: "pH").
         - ylabel (str): Label for y-axis (default: "Δ$G$ (eV)").
 
@@ -364,7 +364,7 @@ def plot_dG_vs_pH(file, U=0, ax=None, output=None,  N=1000, title=None,
     -------
     plt.Axes
         The axes object containing the ΔG vs U plot.    """
-    xlim,ylim = kwargs.get("xlim",(0,14)),kwargs.get("ylim",(-10,2))
+    xlim,ylim = kwargs.get("xlim",(0,14)),kwargs.get("ylim",(-15,5))
 
     # Load data
     data = pd.read_csv(file, sep=r'\s+', header=None, skiprows=1, comment='#')
