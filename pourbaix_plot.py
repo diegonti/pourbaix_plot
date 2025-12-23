@@ -11,7 +11,7 @@ def compute_free_energy(pH, U, dg0, alpha, beta):
     """Computes the dG free energy given the pH, U and parameters."""
     return dg0 - a*alpha*pH - beta*U
 
-def plot_pourbaix(file, ax=None, output=None, N=100, exclude=None, title=None, shift=(0,0), 
+def plot_pourbaix(file, ax=None, output=None, N=1000, exclude=None, title=None, shift=(0,0), 
                   add_contour=True, legend=False, labels=True, labelsize=8, **kwargs):
     """ 
     Plots the Pourbaix diagram given a data file.
