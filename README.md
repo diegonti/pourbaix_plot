@@ -18,9 +18,9 @@ It allows users to:
 
 The main program and functions are found in the `pourbaix_plot.py` script. The `pbe/` and `pbe0/` folders contain example input data, while in the `img/` folder, the resulting images from this data is found, used i our research.
 
-This program was developed for and used in the paper:
+This program was developed for and used in the [paper](https://doi.org/10.1021/acsami.6c00715):
 ```
-D. Ontiveros, F. Viñes, C. Sousa, MXenes Surface Termination under Photoexcitation: Insights from Excited-State Pourbaix Diagrams. (Currently under review)
+D. Ontiveros, F. Viñes, C. Sousa, MXenes Surface Termination under Photoexcitation: Insights from Excited-State Pourbaix Diagrams. ACS Appl. Mater. Interfaces 2026 (Accepted).
 ```
 
 
